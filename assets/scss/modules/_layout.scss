@@ -1,0 +1,48 @@
+
+// make room for footer
+#page{margin-bottom: 480px;}
+
+
+.main{
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding-top: 0px;
+}
+
+.home .main{
+  padding-top: 0;
+}
+
+.wrapper{
+  margin: 0px auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.clearfix{
+  @include clearfix;
+}
+
+@media screen and (min-width: 780px){
+  .wrapper{
+    width: 770px;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 990px){
+  .wrapper{
+    width: 860px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper{width: 950px;}
+}
+
+.reading, .content{
+  padding: 20px 0 20px 0;
+  background: #ecf0f1;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+}

@@ -1,0 +1,35 @@
+.welcome{
+  height: 100vh;
+  background: #333 url('../img/cover.jpg') 80% 20% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 3px solid #2980b9;
+
+  .article-header{
+    top: 200px;
+    left: 0;
+    background: transparent;
+    text-align: center;
+
+    p{
+      max-width: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 780px){
+  .welcome{height: 540px}
+  .welcome .article-header{top: 340px;text-align: left; left: 30px;}
+}
+
+@media screen and (min-width: 990px){
+  .welcome{height: 600px}
+  .welcome .article-header{top: 400px;}
+}
+
+@media screen and (min-width: 1280px) {
+  .welcome{height: 660px}
+  .welcome .article-header{top: 460px;}
+}

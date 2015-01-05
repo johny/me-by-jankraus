@@ -1,0 +1,41 @@
+.footer{
+  background: #2c3e50;
+  background: #333 url('../img/bg.jpg') 80% 50% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 400px 0 0 0;
+  text-align: center;
+
+  .menu{
+
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+
+
+    a{
+      color: #fff;
+      display: inline-block;
+      padding: 5px 10px;
+    }
+  }
+}
+
+.footer.over{
+  z-index: 2;
+}
+
+
+.footer p{
+  color: #ecf0f1;
+}

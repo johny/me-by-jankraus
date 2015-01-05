@@ -1,0 +1,44 @@
+*{
+  @include box-sizing(border-box);
+}
+
+@include establish-baseline;
+
+
+body{
+  @include adjust-font-size-to($base-font);
+  font-family: $base-font-family;
+  color: $base-font-color;
+  font-weight: $base-font-weight;
+}
+
+p{
+  max-width: 40em;
+  margin: 0 0 rhythm(1, $base-font) 0;
+}
+
+h3{
+  margin-bottom: 1em;
+}
+
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #2980b9;
+  @include transition(color, 0.25s ease-in-out);
+}
+
+a:hover, a:active{
+  color: #16a085;
+}
+
+article{
+
+  a:link, a:visited{
+    text-decoration: underline;
+  }
+
+  a:hover, a:active{
+    text-decoration: underline;
+  }
+}

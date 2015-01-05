@@ -1,0 +1,35 @@
+table{
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  margin: 0 0 1.5em 0;
+}
+
+thead{
+
+  th{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #888;
+    background: #ecf0f1;
+  }
+}
+
+tbody{
+
+  td,th{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .recovery{
+    td,th{
+      background: #D7EED1;
+    }
+  }
+
+
+}
